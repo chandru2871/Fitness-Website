@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="icon" type="image" href="./Assests/logo index img.png">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <section>
+    <div class="backimg">
+       
+        
+    <div class="signup" id="signup"><br>
+         <img class= "logo" src="./Assests/logo index img.png" alt="" height="50" width="50">
+         <br><br><br><h4 class="compname">WELCOME TO ROCK FITNESS CENTER</h4><br><br>
+         <h5 class="signuphead" id="signuphead">Sign Up</h5>
+         <form action="./Login.html" id="form2">
+          <div class="input" id="input">
+           <input  type="text" placeholder="Name" id="signupname"required>
+      </div>
+      
+      <div class="input" id="input">
+       <input type="email" placeholder="E-mail" id="signupemail"required>
+      </div>
+      
+      <div class="input" id="input">
+        <input type="password" placeholder="Password" id="signuppwd" required>
+      </div>
+      <div class="input" id="input">
+        <input type="password" placeholder="Confirm Password" id="signupconfpwd" required>
+      </div>
+      <div class="input" id="input">
+      <select name="filteropt"  class="progtype"id="progtype">
+        
+        <option  value="none" selected hidden>Program Types</option>
+        <option value="None" >None</option>
+         <option value="Beginner" >Beginner</option>
+         <option value="Intermediate">Intermediate</option>
+         <option value="Advanced">Advanced</option></select>
+   </div> 
+   <div class="input" id="input">
+      <select name="filteropt"  class="classtype"id="classtype">
+        
+        <option  value="none" selected hidden>Learning Types</option>
+         <option value="None" >None</option>
+         <option value="Trail classes">Trail classes</option>
+         <option value="Online consultation">Online consultation</option></select>
+   </div> 
+      
+      
+            <button class="signupbtn" id="signupbtn">Sign Up</button><br><br><br>
+         </form>
+            <p class="sum" id="sum">Already you have account?<a href="./Login.html">Login</a></p>
+        </div>
+    
+    </div> 
+</section>
+
+ <script src="./signup.js"></script>   
+</body>
+</html>
